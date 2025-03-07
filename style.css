@@ -8,7 +8,9 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: auto; /* Removed 100vh to make the content scrollable */
+    min-height: 100vh; /* Ensure it always covers the viewport height */
+    background-attachment: fixed;
 }
 .nav{
     height: 60px;
@@ -96,15 +98,54 @@ header .menu{
     }
 }
 
+/* outer */
+.outer{
+    height: 600px;
+    width: 95%;
+    position: relative;
+    top: 40px;
+    left: 40px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.outer div{
+    height: 150px;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+#row1 div{
+    height: 100%;
+    width: 20%;
+    border: 2px solid white;
+}
+#row2 div{
+    height: 100%;
+    width: 20%;
+    border: 2px solid white;
+}
+#row3 div{
+    height: 100%;
+    width: 20%;
+    border: 2px solid white;
+}
+
+
 /* update */
 main .update{
     height: 70px;
     width: 70px;
     background-image: url("new\ update.png");
     background-size: cover;
-    position: absolute;
-    right: 0px;
-    bottom: 70px;
+    position: fixed;
+    right:0px;
+    bottom: 0px;
+    cursor: pointer;
     animation: zoom 1s ease-in-out infinite;
 }
 @keyframes zoom {
@@ -117,6 +158,7 @@ footer{
     width: 100%;
     background-color: black;
     color: white;
-    position: absolute;
+    position: relative; /* Change absolute to relative */
     bottom: 0px;
+    margin-top: 20px; /* Optional: Adds space above the footer */
 }
