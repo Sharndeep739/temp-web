@@ -85,18 +85,6 @@ header .menu{
 
 /* code for phone */
 
-@media (max-width: 480px) {
-    body {
-        background-image: url("LANDSCAPdark%207.jpg");
-        background-size: cover;
-        background-position: center;
-    }
-    .nav{
-        height: 40%;
-        font-size: 30px;
-        font-weight: 400 ;
-    }
-}
 
 /* outer */
 .outer{
@@ -104,7 +92,6 @@ header .menu{
     width: 95%;
     position: relative;
     top: 40px;
-    left: 40px;
     color: white;
     display: flex;
     flex-direction: column;
@@ -133,6 +120,27 @@ header .menu{
     height: 100%;
     width: 20%;
     border: 2px solid white;
+}
+@media (max-width: 480px) {
+    body {
+        background-image: url("LANDSCAPdark%207.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    .nav{
+        height: 40%;
+        font-size: 30px;
+        font-weight: 400 ;
+    }
+    #row1 div{
+        height: 50%;
+    }
+    #row2 div{
+        height: 50%;
+    }
+    #row3 div{
+        height: 50%;
+    }
 }
 
 
