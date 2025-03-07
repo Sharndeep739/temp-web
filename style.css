@@ -4,7 +4,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    background-image: url("dark\ 7.jpg");
+    background-image: url("dark%207.jpg");
     background-size: cover;
 }
 .nav{
@@ -32,8 +32,44 @@ header .menu{
 #menuLogo i{
     font-size: 26px;
     color: white;
-    filter: drop-shadow(0px 0px 10px rgba(8, 44, 245, 0.726));
+    filter: drop-shadow(0px 0px 10px rgba(14, 50, 255, 0.726));
 }
 #menuLogo i:hover{
     cursor: pointer;
+}
+.language{
+    
+    height: 40px;
+    width: 200px;
+    position: absolute;
+    right: 2px;
+    top: 67px;
+    display: flex;
+    justify-content: space-around;
+}
+.language div{
+    height: 100%;
+    width: 40%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    cursor: pointer;
+}
+.computer-lang{
+    height: 40px;
+    width: 200px;
+    border: 2px solid white;
+    
+}
+
+@media (max-width: 768px) {
+    .nav {
+        font-size: 25px; 
+    }
+    .language {
+        width: 100%;
+        justify-content: center;
+    }
 }
