@@ -3,6 +3,10 @@
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
+body{
+    background-image: url("dark\ 7.jpg");
+    background-size: cover;
+}
 .nav{
     height: 60px;
     width: 100%;
@@ -19,14 +23,17 @@ header .menu{
     margin-top: 10px;
     height: 30px;
     width: 100%;
-    background-color: rgb(192, 192, 192);
 }
 .menu #menuLogo{
-    box-shadow: 0px 0px 5px rgb(102, 102, 102);
     display: inline-block;
-    height: 100%;
-    width: 25px;
+    position: relative;
+    left: 7px;
 }
 #menuLogo i{
     font-size: 26px;
+    color: white;
+    filter: drop-shadow(0px 0px 10px rgba(8, 44, 245, 0.726));
+}
+#menuLogo i:hover{
+    cursor: pointer;
 }
