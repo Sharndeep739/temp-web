@@ -6,6 +6,9 @@
 body{
     background-image: url("dark%207.jpg");
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 .nav{
     height: 60px;
@@ -84,6 +87,7 @@ header .menu{
     body {
         background-image: url("LANDSCAPdark%207.jpg");
         background-size: cover;
+        background-position: center;
     }
     .nav{
         height: 40%;
