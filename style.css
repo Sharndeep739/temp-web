@@ -109,7 +109,18 @@ header .menu{
 #row1 div{
     height: 100%;
     width: 20%;
-    border: 2px solid white;
+    border: 1px solid white;
+}
+#row1 #box1{
+    background-image: url("android\ studio.png");
+    background-size: cover;
+    background-size: 95%;
+    background-repeat: no-repeat;
+}
+#row1 #box1:hover{
+    cursor: pointer;
+    border: none;
+    filter: drop-shadow(0px 0px 10px rgb(255, 255, 255));
 }
 #row2 div{
     height: 100%;
