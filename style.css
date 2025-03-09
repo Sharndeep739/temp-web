@@ -109,12 +109,27 @@ header .menu{
 #row1 div{
     height: 100%;
     width: 20%;
-    border: 1px solid white;
+
 }
+#row2 div{
+    height: 100%;
+    width: 20%;
+    
+}
+#row3 div{
+    height: 100%;
+    width: 20%;
+    
+}
+
+
+/* anroid image */
+
+
 #row1 #box1{
     background-image: url("android\ studio.png");
     background-size: cover;
-    background-size: 95%;
+    background-size: 75%;
     background-repeat: no-repeat;
 }
 #row1 #box1:hover{
@@ -122,16 +137,115 @@ header .menu{
     border: none;
     filter: drop-shadow(0px 0px 10px rgb(255, 255, 255));
 }
-#row2 div{
-    height: 100%;
-    width: 20%;
-    border: 2px solid white;
+
+/* github image */
+
+#row1 #box2{
+    background-image: url("github-png.png");
+    background-size: cover;
+    background-size: 95%;
+    background-repeat: no-repeat;
 }
-#row3 div{
-    height: 100%;
-    width: 20%;
-    border: 2px solid white;
+#row1 #box2:hover{
+    cursor: pointer;
+    border: none;
+    filter: drop-shadow(0px 0px 10px rgb(255, 255, 255));
 }
+
+/* html image */
+#row1 #box3{
+    background-image: url("html5-logo.png");
+    background-size: cover;
+    background-size: 55%;
+    background-repeat: no-repeat;
+}
+#row1 #box3:hover{
+    cursor: pointer;
+    border: none;
+    filter: drop-shadow(0px 0px 10px rgb(255, 255, 255));
+}
+
+/* css image */
+#row2 #box1{
+    background-image: url("css-logo.png");
+    background-size: cover;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+#row2 #box1:hover{
+    cursor: pointer;
+    border: none;
+    filter: drop-shadow(0px 0px 10px rgb(255, 255, 255));
+}
+
+/* kali image */
+#row2 #box2{
+    background-image: url("kali-logo.png");
+    background-size: cover;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+#row2 #box2:hover{
+    cursor: pointer;
+    border: none;
+    filter: drop-shadow(0px 0px 10px rgb(255, 255, 255));
+}
+
+/* java image */
+#row2 #box3{
+    background-image: url("java-logo.png");
+    background-size: cover;
+    background-size: 73%;
+    background-repeat: no-repeat;
+}
+#row2 #box3:hover{
+    cursor: pointer;
+    border: none;
+    filter: drop-shadow(0px 0px 10px rgb(255, 255, 255));
+}
+
+/* cpp image */
+#row3 #box1{
+    background-image: url("cpp-logo.png");
+    background-size: cover;
+    background-size: 55%;
+    background-repeat: no-repeat;
+}
+#row3 #box1:hover{
+    cursor: pointer;
+    border: none;
+    filter: drop-shadow(0px 0px 10px rgb(255, 255, 255));
+}
+
+/* c lang image */
+#row3 #box2{
+    background-image: url("c-logo.png");
+    background-size: cover;
+    background-size: 55%;
+    background-repeat: no-repeat;
+}
+#row3 #box2:hover{
+    cursor: pointer;
+    border: none;
+    filter: drop-shadow(0px 0px 10px rgb(255, 255, 255));
+}
+
+/* my sql image */
+#row3 #box3{
+    background-image: url("mysql-logo.png");
+    background-size: cover;
+    background-size: 55%;
+    background-repeat: no-repeat;
+}
+#row3 #box3:hover{
+    cursor: pointer;
+    border: none;
+    filter: drop-shadow(0px 0px 10px rgb(255, 255, 255));
+}
+
+
+
+
 @media (max-width: 480px) {
     body {
         background-image: url("LANDSCAPdark%207.jpg");
@@ -179,5 +293,5 @@ footer{
     color: white;
     position: relative; /* Change absolute to relative */
     bottom: 0px;
-    margin-top: 20px; /* Optional: Adds space above the footer */
+    margin-top: 100px; /* Optional: Adds space above the footer */
 }
