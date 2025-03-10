@@ -41,7 +41,7 @@ header .menu{
     display: inline-block;
     left: 7px;
 }
-#menuLogo i{
+ i{
     font-size: 26px;
     color: white;
 }
@@ -302,13 +302,21 @@ main .update{
 }
 /* footer code */
 footer{
-    height: 70px;
+    height: 150px;
     width: 100%;
     background-color: black;
-    color: white;
     position: relative; /* Change absolute to relative */
     bottom: 0px;
     margin-top: 100px; /* Optional: Adds space above the footer */
-    text-align: center;
+}
+footer .logo{
+    height: 50px;
+    width: 150px;
+    display: flex;
     align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+
 }
