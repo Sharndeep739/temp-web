@@ -79,8 +79,13 @@ header .menu{
     align-items: center;
     color: rgba(229, 255, 0, 0.616);
 }
-.computer-lang:hover{
+.computer-lang a{
+    text-decoration: none;
+
+}
+.computer-lang div:hover{
     cursor: pointer;
+    filter: drop-shadow(0px 0px 10px white);
 }
 
 /* code for phone */
@@ -92,6 +97,7 @@ header .menu{
     width: 95%;
     position: relative;
     top: 40px;
+    left: 30px;
     color: white;
     display: flex;
     flex-direction: column;
@@ -236,6 +242,9 @@ header .menu{
     background-size: cover;
     background-size: 55%;
     background-repeat: no-repeat;
+
+    /* remove prprty */
+    filter: contrast(0);
 }
 #row3 #box3:hover{
     cursor: pointer;
@@ -294,4 +303,6 @@ footer{
     position: relative; /* Change absolute to relative */
     bottom: 0px;
     margin-top: 100px; /* Optional: Adds space above the footer */
+    text-align: center;
+    align-items: center;
 }
